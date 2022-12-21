@@ -1,6 +1,7 @@
 import { Route, Routes, BrowserRouter} from 'react-router-dom'
 import ProviderStore from './Components/Store/Store'
 import Weather from './Components/Weather/results'
+import './App.css';
 const Pages = () => {
   return (
     <ProviderStore>
